@@ -1,0 +1,18 @@
+{
+    "users": [
+        {
+            "name": "Pablo",
+            "lastname": "Martinez",
+            "date": "01/02/2020",
+            "email": "pablomartinez@gmail.com",
+            "data": "Manager Lead - area"
+        },
+        {
+            "name": "John",
+            "lastname": "Sawyer",
+            "date": "03/04/2020",
+            "email": "sawyerjohn@gmail.com",
+            "data": "Salesman - Colorado"
+        }
+    ]
+}
