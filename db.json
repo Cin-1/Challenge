@@ -1,18 +1,28 @@
 {
-    "users": [
-        {
-            "name": "Pablo",
-            "lastname": "Martinez",
-            "date": "01/02/2020",
-            "email": "pablomartinez@gmail.com",
-            "data": "Manager Lead - area"
-        },
-        {
-            "name": "John",
-            "lastname": "Sawyer",
-            "date": "03/04/2020",
-            "email": "sawyerjohn@gmail.com",
-            "data": "Salesman - Colorado"
-        }
-    ]
+  "users": [
+    {
+      "name": "Pablo",
+      "lastname": "Martinez",
+      "date": "01/02/2020",
+      "email": "pablomartinez@gmail.com",
+      "data": "Manager Lead - NY",
+      "id": "1"
+    },
+    {
+      "name": "John",
+      "lastname": "Sawyer",
+      "date": "03/04/2020",
+      "email": "sawyerjohn@gmail.com",
+      "data": "Salesman - Colorado",
+      "id": "1"
+    },
+    {
+      "name": "Cint",
+      "lastname": "fgfnfrcvb",
+      "date": "2021-01-13",
+      "email": "cinthiapardos@gmail.com",
+      "data": "jajajaja",
+      "id": "85b412fe-1270-42d4-880c-423a79cbd4f5"
+    }
+  ]
 }
