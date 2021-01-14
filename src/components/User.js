@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Modal from "@material-ui/core/Modal";
+import Button from "@material-ui/core/Button";
+import TableRow from "@material-ui/core/TableRow";
+import TableCell from "@material-ui/core/TableCell";
 
 function getModalStyle() {
   return {
@@ -17,6 +20,9 @@ const useStyles = makeStyles((theme) => ({
     border: "2px solid #000",
     boxShadow: theme.shadows[5],
     padding: theme.spacing(2, 4, 3),
+  },
+  menuButton: {
+    marginRight: theme.spacing(2),
   },
 }));
 
@@ -45,15 +51,20 @@ const User = ({ user, handleDelete }) => {
   );
 
   return (
-    <tr>
-      <td>{name}</td>
-      <td>{lastname}</td>
-      <td>{email}</td>
-
-      <td className="acciones">
-        <button type="button" onClick={handleOpen}>
+    <TableRow key={id}>
+      <TableCell>{name}</TableCell>
+      <TableCell>{lastname}</TableCell>
+      <TableCell>{email}</TableCell>
+      <TableCell>
+        <Button
+          variant="contained"
+          className={classes.menuButton}
+          color="primary"
+          type="button"
+          onClick={handleOpen}
+        >
           Extra Info
-        </button>
+        </Button>
         <Modal
           open={open}
           onClose={handleClose}
@@ -63,15 +74,16 @@ const User = ({ user, handleDelete }) => {
         >
           {body}
         </Modal>
-        <button
+        <Button
+          variant="contained"
+          color="primary"
           type="button"
-          className="btn btn-danger"
           onClick={() => handleDelete(id)}
         >
           Delete
-        </button>
-      </td>
-    </tr>
+        </Button>
+      </TableCell>
+    </TableRow>
   );
 };
 

@@ -1,14 +1,6 @@
 {
   "users": [
     {
-      "name": "Pablo",
-      "lastname": "Martinez",
-      "date": "01/02/2020",
-      "email": "pablomartinez@gmail.com",
-      "data": "Manager Lead - NY",
-      "id": "1"
-    },
-    {
       "name": "John",
       "lastname": "Sawyer",
       "date": "03/04/2020",
@@ -23,6 +15,14 @@
       "email": "cinthiapardos@gmail.com",
       "data": "jajajaja",
       "id": "85b412fe-1270-42d4-880c-423a79cbd4f5"
+    },
+    {
+      "name": "yhry",
+      "lastname": "tjtyj",
+      "date": "2021-01-12",
+      "email": "cinthiapardos@gmail.com",
+      "data": "dk io;.otjyhrthrts,hjkjuyt",
+      "id": "5aa4a1f1-19c6-44de-bf22-ef594e6fe866"
     }
   ]
 }

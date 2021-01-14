@@ -129,7 +129,7 @@ const Form = () => {
               margin="normal"
               fullWidth
               label=" Email"
-              type="text"
+              type="email"
               name="email"
               onChange={handleChange}
               value={email}
@@ -138,7 +138,7 @@ const Form = () => {
               variant="outlined"
               margin="normal"
               fullWidth
-              label=" Data"
+              label=" Position"
               name="data"
               onChange={handleChange}
               value={data}

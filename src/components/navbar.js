@@ -25,12 +25,16 @@ const NavBar = () => {
       <AppBar position="static">
         <Toolbar>
           <a href="/add">
-            <Button type="button" className={classes.menuButton}>
+            <Button
+              type="button"
+              variant="contained"
+              className={classes.menuButton}
+            >
               Create user
             </Button>
           </a>
           <a href="/users">
-            <Button type="button" className={classes.title}>
+            <Button type="button" variant="contained" className={classes.title}>
               See all users
             </Button>
           </a>
